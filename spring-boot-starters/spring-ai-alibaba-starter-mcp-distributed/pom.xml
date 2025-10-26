@@ -8,10 +8,10 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>spring-ai-alibaba-autoconfigure-mcp-registry</artifactId>
+    <artifactId>spring-ai-alibaba-starter-mcp-distributed</artifactId>
 
-    <name>Spring AI Alibaba Nacos Mcp Registry Autoconfiguration</name>
-    <description>Spring AI Alibaba Nacos Mcp Registry Autoconfiguration</description>
+    <packaging>jar</packaging>
+    <name>Spring AI Alibaba Starter Nacos Mcp Registry</name>
     <url>https://github.com/alibaba/spring-ai-alibaba</url>
     <scm>
         <connection>git://github.com/alibaba/spring-ai-alibaba.git</connection>
@@ -20,30 +20,11 @@
     </scm>
 
     <dependencies>
-
         <dependency>
             <groupId>com.alibaba.cloud.ai</groupId>
-            <artifactId>spring-ai-alibaba-mcp-registry</artifactId>
+            <artifactId>spring-ai-alibaba-autoconfigure-mcp-distributed</artifactId>
             <version>${revision}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-mcp-server</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-
     </dependencies>
 
 </project>

@@ -22,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>com.alibaba.cloud.ai</groupId>
-            <artifactId>spring-ai-alibaba-autocofigure-mcp-distributed</artifactId>
+            <artifactId>spring-ai-alibaba-autoconfigure-mcp-distributed</artifactId>
             <version>${revision}</version>
         </dependency>
     </dependencies>

@@ -8,7 +8,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>spring-ai-alibaba-autocofigure-mcp-distributed</artifactId>
+    <artifactId>spring-ai-alibaba-autoconfigure-mcp-distributed</artifactId>
 
     <name>Spring AI Alibaba Nacos Mcp Distributed Autoconfiguration</name>
     <description>Spring AI Alibaba Nacos Mcp Distributed Autoconfiguration</description>
